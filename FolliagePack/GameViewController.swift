@@ -13,7 +13,10 @@ import GameplayKit
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
+        print("View did Load")
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
@@ -33,23 +36,33 @@ class GameViewController: UIViewController {
     }
 
     override var shouldAutorotate: Bool {
+        
+        print("Should Auto Rotate")
         return true
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        
+        print("Supported Interface Orientation view controll")
+//        if UIDevice.current.userInterfaceIdiom == .phone {
+//            return .allButUpsideDown
+//        } else {
+//            return .all
+//        }
+        
+        return .all
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+        print("Did Receive Memory Warning")
         // Release any cached data, images, etc that aren't in use.
     }
 
     override var prefersStatusBarHidden: Bool {
+        print("Prefers Status Bar Hidden")
         return true
     }
 }
