@@ -50,7 +50,7 @@ class GameViewController: UIViewController {
 //            return .all
 //        }
         
-        return .all
+        return .landscape
 
     }
 
