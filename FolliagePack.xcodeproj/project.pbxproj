@@ -15,6 +15,8 @@
 		010847681DFD501E006FDD7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010847661DFD501E006FDD7C /* Main.storyboard */; };
 		0108476A1DFD501E006FDD7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010847691DFD501E006FDD7C /* Assets.xcassets */; };
 		0108476D1DFD501E006FDD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0108476B1DFD501E006FDD7C /* LaunchScreen.storyboard */; };
+		01E850E51DFD67C300CBCCF7 /* MyScene1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01E850E41DFD67C300CBCCF7 /* MyScene1.sks */; };
+		01E850E71DFD6B7600CBCCF7 /* MyTileSet1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01E850E61DFD6B7600CBCCF7 /* MyTileSet1.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		010847691DFD501E006FDD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0108476C1DFD501E006FDD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0108476E1DFD501E006FDD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E850E41DFD67C300CBCCF7 /* MyScene1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene1.sks; sourceTree = "<group>"; };
+		01E850E61DFD6B7600CBCCF7 /* MyTileSet1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet1.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			children = (
 				0108475C1DFD501E006FDD7C /* AppDelegate.swift */,
 				0108475E1DFD501E006FDD7C /* GameScene.sks */,
+				01E850E41DFD67C300CBCCF7 /* MyScene1.sks */,
 				010847601DFD501E006FDD7C /* Actions.sks */,
 				010847621DFD501E006FDD7C /* GameScene.swift */,
 				010847641DFD501E006FDD7C /* GameViewController.swift */,
@@ -69,6 +74,7 @@
 				010847691DFD501E006FDD7C /* Assets.xcassets */,
 				0108476B1DFD501E006FDD7C /* LaunchScreen.storyboard */,
 				0108476E1DFD501E006FDD7C /* Info.plist */,
+				01E850E61DFD6B7600CBCCF7 /* MyTileSet1.sks */,
 			);
 			path = FolliagePack;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 				0108475F1DFD501E006FDD7C /* GameScene.sks in Resources */,
 				0108476A1DFD501E006FDD7C /* Assets.xcassets in Resources */,
 				0108476D1DFD501E006FDD7C /* LaunchScreen.storyboard in Resources */,
+				01E850E71DFD6B7600CBCCF7 /* MyTileSet1.sks in Resources */,
+				01E850E51DFD67C300CBCCF7 /* MyScene1.sks in Resources */,
 				010847611DFD501E006FDD7C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +319,7 @@
 				010847731DFD501E006FDD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
