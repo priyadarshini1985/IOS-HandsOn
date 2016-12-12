@@ -1,2 +1,2 @@
-# My IOS-HandsOn [![Awesome]
+# My IOS-HandsOn ☘️
 > World's Gift
